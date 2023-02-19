@@ -1,0 +1,18 @@
+#import { Module, Connection } into Ethereum from "wrap://ens/ethereum.polywrap.eth"
+
+type Module {
+     """
+    Module to deploy and interect with the wrap nft smart-contract
+    """
+
+    safeMint(
+        """
+        mint nft
+        """
+        address: String!
+        value: String!
+        connection: Ethereum_Connection
+    ): String!
+
+
+}
