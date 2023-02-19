@@ -93,7 +93,7 @@ function App() {
 
   return (
     <div className='App'>
-      {link('https://polywrap.io/', () => (
+      {link('https://testnets.opensea.io/collection/wrap-1', () => (
         <img src={Logo}  />
       ))}
       <header className='App-body'>
